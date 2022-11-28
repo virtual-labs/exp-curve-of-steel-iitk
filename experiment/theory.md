@@ -7,7 +7,7 @@ Fig. 2: Engineering stress-strain curve for a polycrystalline metal<br><br>
 <b>Definitions and properties within elastic limit</b><br><br>
 <b><i>Hooke’s law</i></b>: Within elastic limit, the deformation is proportional to load, i.e., strain is proportional to stress<br>
 <b><i>Young’s modulus of elasticity, E</i></b>: The ratio of stress to strain below elastic limit<br>
-<b><i>Offset yield strength Sy</i></b>: Stress corresponding to the intersection of the stress-strain curve and a line parallel to the elastic part of the curve offset by strain 0.002<br>
+<b><i>Offset yield strength S<sub>y</sub></i></b>: Stress corresponding to the intersection of the stress-strain curve and a line parallel to the elastic part of the curve offset by strain 0.002<br>
 <b><i>Resilience (U<sub>R</sub>)</i></b>: The maximum energy absorbed per unit volume within elastic limit<br>
 Modulus of resilience (U<sub>R</sub>) = 0.5 * S<sub>y</sub>e<sub>y</sub><br><br>
 <b>Definitions and properties in the plastic region</b><br><br>
@@ -44,7 +44,7 @@ t	&nbsp;&nbsp; time (s)<br>
 U<sub>R</sub> &nbsp;&nbsp;	Modulus of resilience (J/m3)<br>
 U<sub>T</sub> &nbsp;&nbsp;	Toughness (J/m3)<br><br>
 <b>Formulas</b><br><br>
-<b>a)	Engineering stress and engineering strain</b>
+<b>a)	Engineering stress and engineering strain</b><br>
 <img src=""><br>
 <br>b)	True stress and true strain<br>
 <img src="images/formula1.PNG"><br>
