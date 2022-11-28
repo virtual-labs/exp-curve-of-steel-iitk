@@ -50,7 +50,7 @@ U<sub>T</sub> &nbsp;&nbsp;	Toughness (J/m3)<br><br>
 <img src="images/formula2.PNG"><br>
 <b>Tensile Testing of Steel</b>
 A typical stress-strain curve for a medium carbon steel is shown in Figure -3. The elastic-plastic transition is not very well defined and occurs abruptly in what is termed a yield point phenomenon. The normal elastic extension (region OA) is terminated at a stress level known as the upper yield point (σu). Plastic deformation is initiated at Point ‘A’ with an actual decrease in stress. Continued deformation fluctuates slightly about some constant stress value (region BC), termed the lower yield point (σL). Deformation at this stage is not homogeneous. In a portion of the tensile sample where there is a stress concentration, a deformation band appears, called Lüder bands. Beyond point C, to the ultimate tensile stress at M, deformation is essentially homogeneous and thereafter necking develops, leading to normal ductile fracture at F. We will learn more about the mechanism about this phenomenon in a later lab.<br>
-<img src=""><br>
+<img src="images/tensile_graph.PNG"><br>
 Fig. 3: Schematic stress-strain curve of a mild steel showing the yield point phenomenon<br>
 
 
