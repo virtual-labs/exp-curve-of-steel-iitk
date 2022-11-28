@@ -8,7 +8,7 @@
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+Understanding Tensile Test and tensile testing of Steel   
 
 <b>Name of Developer | <b> Prof. Kantesh Balani 
 :--|:--|
