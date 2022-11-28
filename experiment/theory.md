@@ -1,7 +1,9 @@
 <b>Brief description of the equipment/machine:</b> A typical Universal Testing Machine is shown in Fig. 1. The one shown in figure, is a 10 kN capacity testing machine and is screw driven. While the lower cross head is fixed, the upper cross head is movable and is fitted with the transducer type ‘load cell’. This testing machine can also be used for compression, torsion, bend/flexural and for high temperature tensile tests with other accessories. <br>
-<img src=""><br><br>
+<img src="tensile_test.png"><br><br>
+Fig. 1: Llyod testing machine in Materials Testing Lab<br><br>
 <b>Typical Tensile Curve:</b> Typical stress-strain curve for a polycrystalline metal is shown in Fig. 2. The common definitions of yield strength (Sy) and ultimate tensile strength (Su) of ductile metals are illustrated in Fig. 2. OA is the elastic regime. Yield strength is defined as the stress value corresponding to a strain value of 0.002 (draw parallel line to OA from a strain value of 0.002 and the intersection point is A – corresponding to Sy). Point at maximum load (U), at which an unstable neck initiates, gives the ultimate tensile strength (or tensile strength) Su. The sample fractures at F.<br><br>
-<img src=""><br><br>
+<img src="tensile_test1.png"><br><br>
+Fig. 2: Engineering stress-strain curve for a polycrystalline metal<br><br>
 <b>Definitions and properties within elastic limit</b><br><br>
 <b><i>Hooke’s law</i></b>: Within elastic limit, the deformation is proportional to load, i.e., strain is proportional to stress<br>
 <b><i>Young’s modulus of elasticity, E</i></b>: The ratio of stress to strain below elastic limit<br>
