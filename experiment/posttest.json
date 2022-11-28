@@ -2,38 +2,54 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. If the maximum load during tensile test is 100 N and the original cross sectional area of the sample is 1 mm2, then the maximum engineering stress is:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "100 MPa",
+        "b": "10 MPa",
+        "c": "1 MPa",
+        "d": "0.1 MPa"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "a"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. If the engineering stress at a given point in stress-strain curve is 100 MPa and the engineering strain is 0.1, then the true stress at that point is:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "101 MPa",
+        "b": "100 MPa",
+        "c": "100.1 MPa",
+        "d": "110 MPa"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "d"
+    },
+    {
+      "question": "3. It is given that a sample of cross sectional area 100 mm2, is reduced to 45 mm2 at fracture, calculate the percentage reduction in area.",
+      "answers": {
+        "a": "45",
+        "b": "55",
+        "c": "25",
+        "d": "75"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "b"
+    },
+    {
+      "question": "4. Which of the following is TRUE for tensile testing of medium carbon steel?",
+      "answers": {
+        "a": "It does not show UTS",
+        "b": "It does not show failure",
+        "c": "It shows abrupt transition from elastic to plastic region",
+        "d": "It shows brittle behavior"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "5. Which of the following points are not observed during tensile testing of medium carbon steel?",
+      "answers": {
+        "a": "Upper yield point",
+        "b": "Lower yield point",
+        "c": "Failure",
+        "d": "cold drawing"
+      },
+      "correctAnswer": "c"
     }
   ]
 }
