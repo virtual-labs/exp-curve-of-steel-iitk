@@ -1,8 +1,8 @@
 <b>Brief description of the equipment/machine:</b> A typical Universal Testing Machine is shown in Fig. 1. The one shown in figure, is a 10 kN capacity testing machine and is screw driven. While the lower cross head is fixed, the upper cross head is movable and is fitted with the transducer type ‘load cell’. This testing machine can also be used for compression, torsion, bend/flexural and for high temperature tensile tests with other accessories. <br>
-<img src="tensile_test.png"><br><br>
+<img src="tensile_test.PNG"><br><br>
 Fig. 1: Llyod testing machine in Materials Testing Lab<br><br>
 <b>Typical Tensile Curve:</b> Typical stress-strain curve for a polycrystalline metal is shown in Fig. 2. The common definitions of yield strength (Sy) and ultimate tensile strength (Su) of ductile metals are illustrated in Fig. 2. OA is the elastic regime. Yield strength is defined as the stress value corresponding to a strain value of 0.002 (draw parallel line to OA from a strain value of 0.002 and the intersection point is A – corresponding to Sy). Point at maximum load (U), at which an unstable neck initiates, gives the ultimate tensile strength (or tensile strength) Su. The sample fractures at F.<br><br>
-<img src="tensile_test1.png"><br><br>
+<img src="tensile_test1.PNG"><br><br>
 Fig. 2: Engineering stress-strain curve for a polycrystalline metal<br><br>
 <b>Definitions and properties within elastic limit</b><br><br>
 <b><i>Hooke’s law</i></b>: Within elastic limit, the deformation is proportional to load, i.e., strain is proportional to stress<br>
@@ -12,7 +12,7 @@ Fig. 2: Engineering stress-strain curve for a polycrystalline metal<br><br>
 Modulus of resilience (U<sub>R</sub>) = 0.5 * S<sub>y</sub>e<sub>y</sub><br><br>
 <b>Definitions and properties in the plastic region</b><br><br>
 <b><i>Strain hardening</i></b>: The relationship between stress and strain is nonlinear during plastic deformation. Like E in elastic range, strength coefficient (K), strain hardening exponent (n) and amount of strain hardening prior to test (εo) are used to characterize material in plastic range
-<img src="images/strain_hardening.png"><br><br>
+<img src="images/strain_hardening.PNG"><br><br>
 <b><i>Ultimate tensile strength</i> (S<sub>u</sub>)</b>: The maximum engineering stress before rupture <br>
 S<sub>u</sub> = P<sub>max</sub>/A<sub>o</sub><br>
 <b><i>Toughness</i> (U<sub>T</sub>)</b>: Ability to absorb energy per unit volume up to fracture<br>
