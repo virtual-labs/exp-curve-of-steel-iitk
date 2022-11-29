@@ -1,9 +1,9 @@
 <b>Brief description of the equipment/machine:</b> A typical Universal Testing Machine is shown in Fig. 1. The one shown in figure, is a 10 kN capacity testing machine and is screw driven. While the lower cross head is fixed, the upper cross head is movable and is fitted with the transducer type ‘load cell’. This testing machine can also be used for compression, torsion, bend/flexural and for high temperature tensile tests with other accessories. <br>
 <img src="images/tensile_test.PNG"><br><br>
-<b><i>Fig. 1</i></b>: Llyod testing machine in Materials Testing Lab<br><br>
+<b><i>Fig. 1</i></b>: <i>Llyod testing machine in Materials Testing Lab</i><br><br>
 <b>Typical Tensile Curve:</b> Typical stress-strain curve for a polycrystalline metal is shown in Fig. 2. The common definitions of yield strength (S<sub>y</sub>) and ultimate tensile strength (S<sub>u</sub>) of ductile metals are illustrated in Fig. 2. OA is the elastic regime. Yield strength is defined as the stress value corresponding to a strain value of 0.002 (draw parallel line to OA from a strain value of 0.002 and the intersection point is A – corresponding to S<sub>y</sub>). Point at maximum load (U), at which an unstable neck initiates, gives the ultimate tensile strength (or tensile strength) S<sub>u</sub>. The sample fractures at F.<br><br>
 <img src="images/tensile_test1.PNG"><br><br>
-<b><i>Fig. 2</i></b>: Engineering stress-strain curve for a polycrystalline metal<br><br>
+<b><i>Fig. 2</i></b>: <i>Engineering stress-strain curve for a polycrystalline metal</i><br><br>
 <b>Definitions and properties within elastic limit</b><br><br>
 <b><i>Hooke’s law</i></b>: Within elastic limit, the deformation is proportional to load, i.e., strain is proportional to stress<br>
 <b><i>Young’s modulus of elasticity, E</i></b>: The ratio of stress to strain below elastic limit<br>
@@ -51,7 +51,7 @@ U<sub>T</sub> &nbsp;&nbsp;	Toughness (J/m3)<br><br>
 <b>Tensile Testing of Steel</b><br>
 A typical stress-strain curve for a medium carbon steel is shown in Figure -3. The elastic-plastic transition is not very well defined and occurs abruptly in what is termed a yield point phenomenon. The normal elastic extension (region OA) is terminated at a stress level known as the upper yield point (σ<sub>u</sub>). Plastic deformation is initiated at Point ‘A’ with an actual decrease in stress. Continued deformation fluctuates slightly about some constant stress value (region BC), termed the lower yield point (σ<sub>L</sub>). Deformation at this stage is not homogeneous. In a portion of the tensile sample where there is a stress concentration, a deformation band appears, called Lüder bands. Beyond point C, to the ultimate tensile stress at M, deformation is essentially homogeneous and thereafter necking develops, leading to normal ductile fracture at F. We will learn more about the mechanism about this phenomenon in a later lab.<br>
 <img src="images/tensile_graph.PNG"><br>
-Fig. 3: Schematic stress-strain curve of a mild steel showing the yield point phenomenon<br>
+<b><i>Fig. 3</i>:</b> <i>Schematic stress-strain curve of a mild steel showing the yield point phenomenon</i><br>
 
 
 
