@@ -20,16 +20,16 @@
 <b><i>Percentage Reduction in Area</i></b> = (A<sub>o</sub>-A<sub>f</sub>)/A<sub>o</sub> *100, Maximum change in cross-sectional area which has occurred during the test (A<sub>o</sub>-A<sub>f</sub>) expressed as a percentage of the original cross-sectional area (A<sub>o</sub>), where A<sub>f</sub> is the final cross-sectional area.
 <br><br>
 <b>Nomenclature</b><br><br>
-A	&nbsp;&nbsp;Instantaneous area (mm2)<br>
-A<sub>o</sub>	&nbsp;&nbsp;Original area of cross-section at gauge length (mm2)<br>
-A<sub>f</sub>&nbsp;&nbsp;	Area in the neck region after failure (mm2)<br>
+A	&nbsp;&nbsp;Instantaneous area (mm<sup>2</sup>)<br>
+A<sub>o</sub>	&nbsp;&nbsp;Original area of cross-section at gauge length (mm<sup>2</sup>)<br>
+A<sub>f</sub>&nbsp;&nbsp;	Area in the neck region after failure (mm<sup>2</sup>)<br>
 E &nbsp;&nbsp;	Young’s modulus of elasticity (GPa)<br>
 e	&nbsp;&nbsp; Engineering strain<br>
 e<sub>y</sub>	&nbsp;&nbsp; Engineering strain at yield point<br>
 e<sub>f</sub> &nbsp;&nbsp;	Engineering strain at failure<br>
 ε &nbsp;&nbsp;	True strain	<br>
 ε<sub>o</sub>	&nbsp;&nbsp;Strain before starting the test<br>
-K &nbsp;&nbsp; Strength coefficient (N/m2, Pa)<br>
+K &nbsp;&nbsp; Strength coefficient (N/m<sup>2</sup>, Pa)<br>
 L	&nbsp;&nbsp;Instantaneous gauge length (mm)<br>
 L<sub>o</sub>	&nbsp;&nbsp;Original gauge length - gauge length before application of load (mm)<br>
 L<sub>f</sub> &nbsp;&nbsp;	Gauge length after rupture of the specimen (mm)<br>
@@ -41,8 +41,8 @@ S<sub>y</sub>	&nbsp;&nbsp;Yield stress (MPa)<br>
 S<sub>u</sub>	&nbsp;&nbsp;Ultimate tensile strength (MPa)<br>
 &sigma;	&nbsp;&nbsp;True stress (MPa)<br>
 t	&nbsp;&nbsp; time (s)<br>
-U<sub>R</sub> &nbsp;&nbsp;	Modulus of resilience (J/m3)<br>
-U<sub>T</sub> &nbsp;&nbsp;	Toughness (J/m3)<br><br>
+U<sub>R</sub> &nbsp;&nbsp;	Modulus of resilience (J/m<sup>3</sup>)<br>
+U<sub>T</sub> &nbsp;&nbsp;	Toughness (J/m<sup>3</sup>)<br><br>
 <b>Formulas</b><br><br>
 <b>a)	Engineering stress and engineering strain</b><br>
 <img src="images/formula1.PNG"><br>
