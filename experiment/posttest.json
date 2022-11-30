@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. If the maximum load during tensile test is 100 N and the original cross sectional area of the sample is 1 mm2, then the maximum engineering stress is:",
+      "question": "1. If the maximum load during tensile test is 100 N and the original cross sectional area of the sample is 1 mm<sup>2</sup>, then the maximum engineering stress is:",
       "answers": {
         "a": "100 MPa",
         "b": "10 MPa",
@@ -22,7 +22,7 @@
       "correctAnswer": "d"
     },
     {
-      "question": "3. It is given that a sample of cross sectional area 100 mm2, is reduced to 45 mm2 at fracture, calculate the percentage reduction in area.",
+      "question": "3. It is given that a sample of cross sectional area 100 mm<sup>2</sup>, is reduced to 45 mm<sup>2</sup> at fracture, calculate the percentage reduction in area.",
       "answers": {
         "a": "45",
         "b": "55",
