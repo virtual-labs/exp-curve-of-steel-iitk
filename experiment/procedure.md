@@ -5,5 +5,5 @@
 4. After taking the length of the sample place it on UTM machine to perform the tensile test of steel.<br>
 5. Then click on start test button. A graph of stress vs strain can be seen in the instructions tab.<br>
 6. After the test, follow the instructions to unload the sample from machine.<br>
-7. Drage the vernier calliper to the canvas and measure the final length of sample.<br>
+7. Drag the vernier calliper to the canvas and measure the final length of sample.<br>
 8. Click on result to see the change in dimensions of sample.
