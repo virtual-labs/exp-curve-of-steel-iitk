@@ -5,10 +5,10 @@
 
 
 <br>
-<b> Experiment : Name of the experiment	 <a name="top"></a> <br>
+<b> Experiment : Tensile Test and Stress Strain Curve of Steel	 <a name="top"></a> <br>
 </p>
 
-<b>Discipline | Fill your discipline name here <b> 
+<b>Discipline | Mechanical Metallurgy Lab <b> 
 :--|:--|
 <b> Lab | Fill your lab name here<b> 
 <b> Experiment|  Fill your experiment name here   <b> 
