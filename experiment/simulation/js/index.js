@@ -54,6 +54,13 @@ function handle() {
   window.refresh();
 }
 
+window.addEventListener("load", function () {
+  setTimeout(() => {
+    if (vc) vc.init();
+    if (sample1) sample1.init();
+  }, 1000);
+});
+
 function handleStep1() {
   let pane = document.getElementById("step1");
   let len = document.getElementById("step1Length").value;
@@ -62,8 +69,8 @@ function handleStep1() {
     return;
   }
 
-  if (len < 35 || len > 40) {
-    alert("Wrong readings! Please take your reading correctly via venier caliper. (Range must be in b/w 35 to 40 mm)");
+  if (len < 41 || len > 44) {
+    alert("Wrong readings! Please take your reading correctly via venier caliper. (Range must be in b/w 41 to 44 mm)");
     return;
   }
 
@@ -87,8 +94,8 @@ function handleStep2() {
     return;
   }
 
-  if (len < 3 || len > 4) {
-    alert("Wrong readings! Please take your reading correctly via venier caliper. (Range must be in b/w 3 to 4 mm)");
+  if (len < 5 || len > 6) {
+    alert("Wrong readings! Please take your reading correctly via venier caliper. (Range must be in b/w 5 to 6 mm)");
     return;
   }
 
@@ -102,6 +109,10 @@ function handleStep2() {
   next.classList.remove("disabled");
 
   currentStepProgress = 3;
+
+  if (vc) vc.destory();
+  if (utm) utm.init();
+  if (sample1) sample1.init();
 }
 
 function handleStep3() {
@@ -151,11 +162,13 @@ function handleStep3() {
   );
 
   document.getElementById("btnNext").disabled = true;
+  // document.getElementById("arrowNext").classList.add("disabled");
 
   document.getElementById("startTest").addEventListener("click", (e) => {
     let tableBody = document.getElementById("testData");
     e.currentTarget.disabled = true;
     document.getElementById("btnNext").disabled = true;
+    // document.getElementById("arrowNext").classList.add("disabled");
     e.currentTarget.innerHTML = "Running...";
 
     setTimeout(() => {
@@ -167,8 +180,10 @@ function handleStep3() {
         clearInterval(intr);
         document.getElementById("startTest").disabled = false;
         document.getElementById("startTest").innerHTML = "Done";
+        document.getElementById("showGraphBtn").disabled = false;
         utm.stop();
         document.getElementById("btnNext").disabled = false;
+        // document.getElementById("arrowNext").classList.remove("disabled");
         return;
       }
 
@@ -217,6 +232,7 @@ function handleStep3() {
         "Extensometer Reading in div",
         "Load in kN"
       );
+      document.querySelector(".menu").scrollTo(0, document.querySelector(".menu").scrollHeight);
     }, 650);
   });
 
@@ -241,6 +257,10 @@ function handleStep4() {
   next.classList.remove("disabled");
 
   currentStepProgress = 5;
+
+  if (vc) vc.init();
+  if (utm) utm.destory();
+  if (sample1) sample1.init();
 }
 
 function handleStep5() {
@@ -251,8 +271,8 @@ function handleStep5() {
     return;
   }
 
-  if (len < 38 || len > 40) {
-    alert("Wrong readings! Please take your reading correctly via venier caliper. (Range must be in b/w 38 to 40mm)");
+  if (len < 45 || len > 47) {
+    alert("Wrong readings! Please take your reading correctly via venier caliper. (Range must be in b/w 46 to 47mm)");
     return;
   }
 
@@ -277,8 +297,8 @@ function handleStep6() {
     return;
   }
 
-  if (len < 3 || len > 5) {
-    alert("Wrong readings! Please take your reading correctly via venier caliper. (Range must be in b/w 3 to 5mm)");
+  if (len < 8 || len > 10) {
+    alert("Wrong readings! Please take your reading correctly via venier caliper. (Range must be in b/w 8 to 10mm)");
     return;
   }
 
@@ -293,6 +313,7 @@ function handleStep6() {
 
   //last
   document.getElementById("btnNext").disabled = true;
+  // document.getElementById("arrowNext").classList.add("disabled");
   document.querySelector("#step7 .content").innerHTML = `
     <table>
       <tr>
@@ -367,3 +388,18 @@ function plotGraph(graphCtx, data, labelX, labelY) {
     });
   }
 }
+
+function showGraph() {
+  graphModal = new Modal({
+    title: "Stree Strain Curve",
+    body: [
+      {
+        page: 1,
+        title: "Stress Strain Curve",
+        image: "images/stress-strain-curve2.jpg",
+      },
+    ],
+  });
+  graphModal.show();
+}
+

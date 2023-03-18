@@ -11,12 +11,12 @@
     <div id="app">
       <div class="menu">
         <div class="nav-tabs">
-          <div class="nav-item active" data-target="#tools">Tools</div>
-          <div class="nav-item" data-target="#instr">Instructions</div>
+          <div class="nav-item" data-target="#tools">Tools</div>
+          <div class="nav-item active" data-target="#instr">Instructions</div>
         </div>
 
         <div class="nav-content">
-          <div id="tools" class="nav-pane active">
+          <div id="tools" class="nav-pane">
             <div class="list text-center">
               <div>
                 <img label="utmMachine" src="images/img/utm-machine-logo.png" width="100" draggable="true" />
@@ -30,24 +30,21 @@
               <hr />
               <div>
                 <img label="sample1" src="images/img/sample1.png" draggable="true" width="200" />
-                <p>Test Sample</p>
+                <p>Steel Sample</p>
               </div>
               <hr />
             </div>
           </div>
 
-          <div id="instr" class="nav-pane">
+          <div id="instr" class="nav-pane active">
             <div id="accordion" class="accordion">
-              <div id="step1" class="box disabled">
-                <div class="label">Step 1: Take length of the sample</div>
+              <div id="step1" class="box active">
+                <div class="label">Step 1: Take gauge length of the sample</div>
                 <div class="content">
                   <ul>
-                    <li>
-                      Drag the sample and venier caliper from menu to the canvas. and take the length of the sample.
-                    </li>
                     <li>Right click on venier caliper and click on pin.</li>
                     <li>Place the sample on the venier caliper.</li>
-                    <li>Take the length and enter it below:</li>
+                    <li>Take the gauge length and enter it below:</li>
                   </ul>
                   <div class="mt-1">Length: <input id="step1Length" type="number" /> mm</div>
                 </div>
@@ -71,9 +68,6 @@
                 <div class="label">Step 3: Place sample on UTM machine.</div>
                 <div class="content">
                   <ul>
-                    <li>Unload the sample from venier caliper.</li>
-                    <li>Remove the venier caliper by clicking on delete.</li>
-                    <li>Take the UTM machine from menu.</li>
                     <li>Place the sample on the machine.</li>
                     <li>You can adjust zoom level also.</li>
                   </ul>
@@ -88,6 +82,7 @@
                   </ul>
                   <div class="mt-1">
                     <button id="startTest">Start Test</button>
+                    <button id="showGraphBtn" onclick="showGraph()" disabled>Plot</button>
                   </div>
 
                   <canvas id="outputGraphA"></canvas>
@@ -118,10 +113,6 @@
                 <div class="label">Step 5: Measure final length.</div>
                 <div class="content">
                   <ul>
-                    <li>Unload the sample from UTM.</li>
-                    <li>Remove the UTM by clicking on delete.</li>
-                    <li>Take the venier caliper from menu.</li>
-                    <li>Right click on venier caliper and click on "Pin"</li>
                     <li>Place the sample on the venier caliper.</li>
                     <li>Take the length of the sample and enter it below.</li>
                   </ul>
@@ -151,6 +142,7 @@
             </div>
 
             <div class="actions">
+              <!-- <image src="images/arrow.png" width="25px" class="blink" id="arrowNext" /> -->
               <button class="btn" id="btnNext" onclick="handle()">Next</button>
             </div>
           </div>
@@ -164,6 +156,7 @@
 
     <script src="js/context.js"></script>
     <script src="js/components.js"></script>
+    <script src="js/modal.js"></script>
     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
 
