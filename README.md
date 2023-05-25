@@ -21,5 +21,4 @@
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
 1 |Mr. Abhineet | Student | CSE | REC Kannauj | 
-2 | . | . | . | . | .
 
