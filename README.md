@@ -10,15 +10,15 @@
 
 <b> Brief description of the equipment/machine</b> : A typical Universal Testing Machine is shown in Fig. 1. The one shown in figure, is a 10 kN capacity testing machine and is screw driven. While the lower cross head is fixed, the upper cross head is movable and is fitted with the transducer type 'load cell'. This testing machine can also be used for compression, torsion, bend/flexural and for high temperature tensile tests with other accessories.
 
-<b>Name of Developer | <b> Prof. Sudhansu S. Singh 
+<b>Name of Developer | <b> Prof. Sudhansu S. Singh , Prof. Shashank Shekhar
 :--|:--|
 <b> Institute | <b>IIT Kanpur
-<b> Email id|     <b>sudhanss@iitk.ac.in
+<b> Email id|     <b>sudhanss@iitk.ac.in , shashank@iitk.ac.in
 <b> Department | Materials Science & Engineering
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 |Mr. Abhineet | Student | CSE | REC Kannauj | 
+1 |Mr. Abhineet | Student | CSE | REC Kannauj | 198.abhineet@gmail.com
 
