@@ -1,0 +1,55 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. If the maximum load during tensile test is 100 N and the original cross sectional area of the sample is 1 mm<sup>2</sup>, then the maximum engineering stress is:",
+      "answers": {
+        "a": "100 MPa",
+        "b": "10 MPa",
+        "c": "1 MPa",
+        "d": "0.1 MPa"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "2. If the engineering stress at a given point in stress-strain curve is 100 MPa and the engineering strain is 0.1, then the true stress at that point is:",
+      "answers": {
+        "a": "101 MPa",
+        "b": "100 MPa",
+        "c": "100.1 MPa",
+        "d": "110 MPa"
+      },
+      "correctAnswer": "d"
+    },
+    {
+      "question": "3. It is given that a sample of cross sectional area 100 mm<sup>2</sup>, is reduced to 45 mm<sup>2</sup> at fracture, calculate the percentage reduction in area.",
+      "answers": {
+        "a": "45",
+        "b": "55",
+        "c": "25",
+        "d": "75"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "4. Which of the following is TRUE for tensile testing of medium carbon steel?",
+      "answers": {
+        "a": "It does not show UTS",
+        "b": "It does not show failure",
+        "c": "It shows abrupt transition from elastic to plastic region",
+        "d": "It shows brittle behavior"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "5. Which of the following points are not observed during tensile testing of medium carbon steel?",
+      "answers": {
+        "a": "Upper yield point",
+        "b": "Lower yield point",
+        "c": "Failure",
+        "d": "cold drawing"
+      },
+      "correctAnswer": "c"
+    }
+  ]
+}

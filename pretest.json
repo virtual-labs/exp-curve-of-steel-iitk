@@ -1,0 +1,55 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What does the acronym UTM stand for?",
+      "answers": {
+        "a": "Universal Tensile Machine",
+        "b": "Uniaxial Testing Machine",
+        "c": "Universal Testing Machine",
+        "d": "Uniaxial Tensile Machine"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "2. UTM cannot be used for this test",
+      "answers": {
+        "a": "Tensile Testing",
+        "b": "Compression Testing",
+        "c": "Impact Testing",
+        "d": "Bend/ Flexural Testing"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "3. Which of these describes Hooke’s Law?",
+      "answers": {
+        "a": "Necking begins at maximum load",
+        "b": "Deformation is proportional to load",
+        "c": "Yield strength increases with increasing strain",
+        "d": "Stress at which plastic deformation begins"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "4. Strain is a measurement of",
+      "answers": {
+        "a": "Extent of load applied on the sample",
+        "b": "Load bearing capacity of the sample",
+        "c": "Rigidity of the sample",
+        "d": "Extent of deformation in the sample"
+      },
+      "correctAnswer": "d"
+    },
+    {
+      "question": "5. Which of the following is not a component of the UTM",
+      "answers": {
+        "a": "Thermocouple",
+        "b": "Load Cell",
+        "c": "Load frame",
+        "d": "Crosshead"
+      },
+      "correctAnswer": "a"
+    }
+  ]
+}
