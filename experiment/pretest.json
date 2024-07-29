@@ -5,11 +5,11 @@
       "question": "1. What does the acronym UTM stand for?",
       "answers": {
         "a": "Universal Tensile Machine",
-        "b": "Uniaxial Testing Machine",
-        "c": "Universal Testing Machine",
-        "d": "Uniaxial Tensile Machine"
+        "b": "Universal Testing Machine",
+        "c": "Uniaxial Testing Machine",
+        "d": "Ultimate Tensile Machine"
       },
-      "correctAnswer": "c"
+      "correctAnswer": "b"
     },
     {
       "question": "2. UTM cannot be used for this test",
