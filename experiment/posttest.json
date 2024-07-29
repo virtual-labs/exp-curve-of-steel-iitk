@@ -42,14 +42,14 @@
       "correctAnswer": "c"
     },
     {
-      "question": "5. Which of the following points are not observed during tensile testing of medium carbon steel?",
+      "question": "5. Luder bands are formed?",
       "answers": {
-        "a": "Upper yield point",
-        "b": "Lower yield point",
-        "c": "Failure",
-        "d": "cold drawing"
+        "a": "After lower yield point",
+        "b": "After ultimate tensile strength",
+        "c": "Between ultimate tensile strength and fracture",
+        "d": "In elastic regime"
       },
-      "correctAnswer": "c"
+      "correctAnswer": "a"
     }
   ]
 }
