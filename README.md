@@ -1,24 +1,24 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b> Mechanical Enginnering
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Mechanical Metallurgy Lab
+<b> Experiment|     <b> Tensile Test and Stress Strain Curve of Steel
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+<b> Brief description of the equipment/machine</b> : A typical Universal Testing Machine is shown in Fig. 1. The one shown in figure, is a 10 kN capacity testing machine and is screw driven. While the lower cross head is fixed, the upper cross head is movable and is fitted with the transducer type 'load cell'. This testing machine can also be used for compression, torsion, bend/flexural and for high temperature tensile tests with other accessories.
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> Prof. Sudhansu S. Singh , Prof. Shashank Shekhar
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b>IIT Kanpur
+<b> Email id|     <b>sudhanss@iitk.ac.in , shashank@iitk.ac.in
+<b> Department | Materials Science & Engineering
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+1 |Mr. Abhineet | Student | CSE | REC Kannauj | 198.abhineet@gmail.com
+
